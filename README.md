@@ -2,6 +2,16 @@
 
 猫型のBoundingBoxを作ってみたかった、ただそれだけである。
 
+
+![original](images/nekoneko01.jpg)
+
+これが
+
+
+![withCatBox](images_output02/nekoneko01.jpg)
+
+こうなる
+
 ## usage
 
 ### 用意するもの
@@ -42,8 +52,11 @@ npm i して、出力等のディレクトリを作成
 
 ### やってみよう
 
+テスト用のデータもありますので、そのままご利用ください。
+
+
 ```
-bucket_name=nekochan-bounding-box
+bucket_name=YOUR_BUCKE_NAME
 image_path=images/nekoneko01.jpg
 normal_output_path=output01/nekoneko01.jpg
 cat_output_path=output02/nekoenkoe01.jpg
@@ -54,3 +67,8 @@ node index.js ${image_path} images_output01/${image} "${jsonparam}"
 node neko.js images/${image} images_output02/${image} "${jsonparam}"
 
 ```
+
+### そのた
+
+- このスクリプトについては好きに変更したりパクったりしていただいて問題ありません
+- 画像は、個人での利用のみOKです。再配布はダメです。
